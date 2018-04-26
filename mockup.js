@@ -10,7 +10,7 @@ const metrics = {
         name: string,
         temp: number,
         isMining: boolean,
-        currentAlgorithm: string,
+        currentAlgorithm: ?string,
       }
     ],
     uptime: string,
