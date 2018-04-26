@@ -3,7 +3,8 @@ const metrics = {
       temp: number,
       isMining: boolean,
       currentAlgorithm: string,
-      mode: string // is the CPU using a minimum of electricity? (throttling / power-save mode)
+      /** is the CPU using a minimum of electricity? (throttling / power-save mode) */
+      mode: string
     },
     gpu: [
       {
@@ -13,6 +14,7 @@ const metrics = {
         currentAlgorithm: ?string,
       }
     ],
+    /** system uptime */
     uptime: string,
     caseTemperature: number,
     free: {
