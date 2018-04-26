@@ -3,7 +3,7 @@ const metrics = {
       temp: number,
       isMining: boolean,
       currentAlgorithm: string,
-      mode: string // is it using a minimum of electricity? (throttling)
+      mode: string // is the CPU using a minimum of electricity? (throttling / power-save mode)
     },
     gpu: [
       {
